@@ -50,20 +50,21 @@ This is a site design project for a fictional co-working space.  It includes pho
 ![sketch 2](img/draft2.jpg)
 
 ## Setup/Installation Requirements
-- Navigate to `https://github.com/gearjosh/fond-o-clone`.
+- Navigate to `https://github.com/gearjosh/co-work-client`.
 - Click the green `Clone or download` button on the right, and select `Download ZIP`.
-- Unzip `fond-o-clone-master.zip`.
-- Navigate to the `fond-o-clone-master` directory.
+- Unzip `co-work-client-master.zip`.
+- Navigate to the `co-work-client-master` directory.
 - Inside  double-click on `index.html`.
 
 ## Known Bugs
-- The clone does not have the full functionality of the real site.  Menus, buttons, and links do not function.
+- There is no site yet, as I am still in the design phase, so don't be surprised if `index.html` doesn't work. ;)
 
 ## Support and contact details
 - For questions or support you can email me at: comedian.sean.connery@gmail.com.
 
 ## Technologies Used
-- This site uses HTML and CSS.
+- ~~This site uses HTML and CSS.~~
+- This uses my phone's camera, and Sketch so far.
 
 ### License
-This software is licensed under [GNU GPLv3](LICENSE.txt).
+This ~~software~~ is licensed under [GNU GPLv3](LICENSE.txt).
