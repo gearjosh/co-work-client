@@ -49,6 +49,13 @@ This is a site design project for a fictional co-working space.  It includes pho
 ![sketch 1](img/draft1.jpg)
 ![sketch 2](img/draft2.jpg)
 
+#### Fonts Used
+
+- Raleway
+- Montserrat
+- Abril Fatface
+- Londrina Outline
+
 ## Setup/Installation Requirements
 - Navigate to `https://github.com/gearjosh/co-work-client`.
 - Click the green `Clone or download` button on the right, and select `Download ZIP`.
