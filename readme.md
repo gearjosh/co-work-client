@@ -29,7 +29,7 @@ This is a site design project for a fictional co-working space.  It includes pho
 
 ### Inspirational websites
 
-- http://deskandmug.com/ -
+- http://deskandmug.com/
 - https://collectiveagency.co/
 - http://owltastic.com/
 - http://www.ostrolucky.com/en
