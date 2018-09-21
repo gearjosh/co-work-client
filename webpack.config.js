@@ -30,17 +30,18 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: '[name].[ext]',
-              outputPath: 'assets/images/'
+              outputPath: 'assets/img/'
             }
           }
         ]
       },
       {
-        test:/\.html$/,
-        use: [
-          'html-loader'
-        ]
-      },
+        test: /\.html$/,
+        loader: 'html-srcsets-loader',
+        options: {
+          attrs: ['img:src', ':srcset'],
+        }
+      }
     ]
   },
   plugins: [
@@ -48,14 +49,6 @@ module.exports = {
       inject: 'body',
       template: './src/index.html',
       filename: 'index.html',
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true
-      }
-    }),
-    new HtmlWebpackPlugin({
-      filename: 'contact.html',
-      template: './src/contact.html'
       minify: {
         removeComments: true,
         collapseWhitespace: true
