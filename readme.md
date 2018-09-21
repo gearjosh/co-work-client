@@ -5,7 +5,7 @@
 #### By Josh Gearheart
 
 ## Description
-This is a site design project for a fictional co-working space.  It includes photos of paper sketches, wireframes and prototypes in Sketch, and...
+This is a site design project for a fictional co-working space.  It includes photos of paper sketches, wireframes and prototypes in Sketch, as well as a real responsive landing page.
 
 ## Design Process
 
@@ -20,12 +20,12 @@ This is a site design project for a fictional co-working space.  It includes pho
   I need to be able to contact the business,
   so that I can rent space there.
 ****
-- As a current customer,
+- ~~As a current customer,
   I need the ability to see and edit my current rental agreement,
-  so that I can change my rental plan or cancel my rental if I choose.
-- As a business owner,
+  so that I can change my rental plan or cancel my rental if I choose.~~
+- ~~As a business owner,
   I need to see details of ,
-  so that I can decide whether or not to rent space there.
+  so that I can decide whether or not to rent space there.~~
 
 ### Inspirational websites
 
