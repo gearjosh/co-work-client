@@ -41,13 +41,13 @@ This is a site design project for a fictional co-working space.  It includes pho
 
 #### Brainstorm Sketches Inspired by Desk & Mug
 
-![pre sketch 1](img/pre1.jpg)
-![pre sketch 2](img/pre2.jpg)
+![pre sketch 1](src/assets/img/pre1.jpg)
+![pre sketch 2](src/assets/img/pre2.jpg)
 
 #### First Draft Sketches
 
-![sketch 1](img/draft1.jpg)
-![sketch 2](img/draft2.jpg)
+![sketch 1](src/assets/img/draft1.jpg)
+![sketch 2](src/assets/img/draft2.jpg)
 
 #### Fonts Used
 
@@ -89,8 +89,8 @@ _Once Node.js is installed_
 - For questions or support you can email me at: comedian.sean.connery@gmail.com.
 
 ## Technologies Used
-- ~~This site uses HTML and CSS.~~
 - This uses my phone's camera, and Sketch so far.
+- This site uses HTML and CSS as well as Webpack and Node Package Manager for the dev environment.
 
 ### License
-This ~~software~~ is licensed under [GNU GPLv3](LICENSE.txt).
+This software is licensed under GNU GPLv3.
