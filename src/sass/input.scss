@@ -67,7 +67,7 @@ $fweight-thin: 100;
     family: $fserif;
   }
   color: $green-lt;
-  text-shadow: 0 1px 0 $green-dk;
+  text-shadow: 0 1px 0 $blue;
 }
 
 @mixin attribution-text-on-red {
@@ -177,6 +177,7 @@ ul.landing-menu {
     grid-row: 4 / 5;
     grid-column: 2 / 3;
     @include quote-text-on-red;
+    text-align: justify;
   }
   :nth-child(3) {
     grid-row: 5 / 6;
