@@ -22,7 +22,7 @@ html, body {
 }
 
 .landing-header {
-  padding: 15px;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -32,6 +32,7 @@ html, body {
   align-items: center;
   img {
     width: 255px;
+    margin-bottom: 1rem;
   }
   p {
     @include light-caps-on-red;
@@ -45,7 +46,7 @@ ul.landing-menu {
   background-color: $yellow;
   p {
     text-align: center;
-    line-height: 200px;
+    line-height: 20vw;
     @include landing-menu-text;
     cursor: pointer;
     :hover {
