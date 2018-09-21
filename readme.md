@@ -57,6 +57,9 @@ This is a site design project for a fictional co-working space.  It includes pho
 - Londrina Outline
 
 ## Setup/Installation Requirements
+- 
+
+**OR**
 - Navigate to `https://github.com/gearjosh/co-work-client`.
 - Click the green `Clone or download` button on the right, and select `Download ZIP`.
 - Unzip `co-work-client-master.zip`.

@@ -121,10 +121,14 @@ ul.landing-menu {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 125px 125px;
   background-color: $yellow;
-  li {
+  p {
     text-align: center;
     line-height: 200px;
     @include landing-menu-text;
+    cursor: pointer;
+    :hover {
+      text-decoration: underline;
+    }
   }
   .top-1 {
     background-image: url("../assets/img/entrance-land.png");
