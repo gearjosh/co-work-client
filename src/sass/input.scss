@@ -96,7 +96,7 @@ html, body {
 .container {
   width: 325px;
   display: grid;
-  grid-template-rows: 173px 250px 60px 450px 200px 60px;
+  grid-template-rows: 170px 250px 60px 450px 200px 60px;
 }
 
 .landing-header {
@@ -198,5 +198,30 @@ ul.landing-menu {
     @include light-caps-on-blue
     text-align: center;
     line-height: 1.5em;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .container {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 13fr max-content 6fr 20fr 40fr 6fr;
+  }
+  ul.landing-menu {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+.landing-header {
+  height: auto;
+}
+.testimonial {
+  grid-template-rows: 1rem 15fr 1rem 2fr 1fr auto;
+  grid-template-columns: 1rem 1fr 1rem;
+  :nth-child(1) {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    height: 50vw;
+    justify-self: center;
   }
 }

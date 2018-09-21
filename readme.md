@@ -83,7 +83,7 @@ _Once Node.js is installed_
 - Finally, enter `$ npm run start`.
 
 ## Known Bugs
-- There is no site yet, as I am still in the design phase, so don't be surprised if `index.html` doesn't work. ;)
+- There is only a landing page at the moment, so no links work.
 
 ## Support and contact details
 - For questions or support you can email me at: comedian.sean.connery@gmail.com.
