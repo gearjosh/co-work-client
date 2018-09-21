@@ -22,16 +22,30 @@
   }
   ul.landing-menu {
     .top-1 {
-      background-image: url("../assets/img/entrance-mob-350.png");
+      background-image: url("../assets/img/entrance-700.png");
       background-size: 105%;
     }
     .top-2 {
-      background-image: url("../assets/img/communal_space-mob-350.png");
+      background-image: url("../assets/img/communal_space-700.png");
       background-size: 115%;
     }
     .bottom {
-      background-image: url("../assets/img/meeting-mob-350.png");
+      background-image: url("../assets/img/meeting-700.png");
       background-size: 105%;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  ul.landing-menu {
+    .top-1 {
+      background-image: url("../assets/img/entrance.png");
+    }
+    .top-2 {
+      background-image: url("../assets/img/communal_space.png");
+    }
+    .bottom {
+      background-image: url("../assets/img/meeting.png");
     }
   }
 }
