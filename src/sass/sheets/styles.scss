@@ -13,10 +13,12 @@ html, body {
 }
 
 .container {
-  width: 325px;
+  min-width: 325px;
+  width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-rows: 170px 250px 60px 450px 200px 60px;
+  // grid-template-rows: 170px 250px 60px 450px 200px 60px;
+  grid-template-rows: max-content 25fr 6fr max-content max-content 6fr;
 }
 
 .landing-header {
@@ -24,7 +26,7 @@ html, body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 175px;
+  height: 100%;
   background-color: $red;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +41,7 @@ html, body {
 ul.landing-menu {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 125px 125px;
+  grid-template-rows: 1fr 1fr;
   background-color: $yellow;
   p {
     text-align: center;
@@ -51,17 +53,17 @@ ul.landing-menu {
     }
   }
   .top-1 {
-    background-image: url("../assets/img/entrance-land.png");
+    background-image: url("../assets/img/entrance-700.png");
     background-position: center;
     background-size: cover;
   }
   .top-2 {
-    background-image: url("../assets/img/communal_space-land.png");
+    background-image: url("../assets/img/communal_space-700.png");
     background-position: center;
     background-size: cover;
   }
   .bottom {
-    background-image: url("../assets/img/meeting-land.png");
+    background-image: url("../assets/img/meeting-700.png");
     background-position: center;
     background-size: cover;
     grid-column: 1 / 3;

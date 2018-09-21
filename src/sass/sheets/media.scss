@@ -4,7 +4,7 @@
   .container {
     width: 100%;
     display: grid;
-    grid-template-rows: 13fr max-content 6fr max-content 40fr 6fr;
+    grid-template-rows: max-content max-content 6fr max-content 40fr 6fr;
   }
   ul.landing-menu {
     grid-template-columns: 1fr 1fr;
