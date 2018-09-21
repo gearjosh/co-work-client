@@ -1,15 +1,51 @@
+// variables
+$red: #C1432E;
+$green-dk: #7A9D96;
+$green-lt: #B8DBCF;
+$blue: #00303F;
+$yellow: #DCAE1D;
+$fsans: 'Montserrat', sans-serif;
+$fserif: 'Abril Fatface', cursive;
+$fsize-lt: 300;
+$fsize-xlt: 200;
+$fsize-thin: 100;
+
+// styles
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $fsans;
 }
 
 html, body {
   width: 100%;
-  font-size: 100%;
+  font-size: 13px;
 }
 
 .container {
   width: 325px;
+  margin: 0 auto;
+}
 
+.landing-header {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 173px;
+  background-color: $red;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 255px;
+  }
+  p {
+    text-transform: uppercase;
+    color: $green-lt;
+    font-size: 14px;
+    font-weight: $fsize-xlt;
+    letter-spacing: 1.8px;
+  }
 }
