@@ -201,27 +201,38 @@ ul.landing-menu {
   }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 600px) {
   .container {
     width: 100%;
     display: grid;
-    grid-template-rows: 13fr max-content 6fr 20fr 40fr 6fr;
+    grid-template-rows: 13fr max-content 6fr max-content 40fr 6fr;
   }
   ul.landing-menu {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-}
-.landing-header {
-  height: auto;
-}
-.testimonial {
-  grid-template-rows: 1rem 15fr 1rem 2fr 1fr auto;
-  grid-template-columns: 1rem 1fr 1rem;
-  :nth-child(1) {
-    grid-row: 2 / 3;
-    grid-column: 2 / 3;
-    height: 50vw;
-    justify-self: center;
+  .landing-header {
+    height: auto;
+  }
+  .testimonial {
+    grid-template-rows: 1rem 15fr 1rem 2fr 1fr auto;
+    grid-template-columns: 1rem 1fr 1rem;
+    :nth-child(1) {
+      height: 50vw;
+    }
+  }
+  ul.landing-menu {
+    .top-1 {
+      background-image: url("../assets/img/entrance-mob-350.png");
+      background-size: 105%;
+    }
+    .top-2 {
+      background-image: url("../assets/img/communal_space-mob-350.png");
+      background-size: 115%;
+    }
+    .bottom {
+      background-image: url("../assets/img/meeting-mob-350.png");
+      background-size: 105%;
+    }
   }
 }
