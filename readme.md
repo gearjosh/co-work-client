@@ -57,14 +57,30 @@ This is a site design project for a fictional co-working space.  It includes pho
 - Londrina Outline
 
 ## Setup/Installation Requirements
-- 
 
-**OR**
-- Navigate to `https://github.com/gearjosh/co-work-client`.
-- Click the green `Clone or download` button on the right, and select `Download ZIP`.
-- Unzip `co-work-client-master.zip`.
-- Navigate to the `co-work-client-master` directory.
-- Inside  double-click on `index.html`.
+You must have Node.js installed on your machine. If not, follow these pre-instructions:
+
+_For OSX_
+
+- First, install Homebrew if it is not installed on your computer already.
+  - To install Homebrew, enter the following in order in terminal:
+  - `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+  - `$ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile`
+
+_For other operating systems_
+Head on over to the [Node website](https://nodejs.org/en/download/) to download and install the appropriate installer for your computer.
+
+_Install Node.js_
+Now install Node.js like this in terminal: `$ brew install node`.
+
+****
+_Once Node.js is installed_
+
+- Open terminal and enter `$ cd Desktop` (or your preferred destination).
+- Then enter `$ git clone https://github.com/gearjosh/co-work-client.git`.
+- Enter `cd co-work-client`.
+- Enter `$ npm install`
+- Finally, enter `$ npm run start`.
 
 ## Known Bugs
 - There is no site yet, as I am still in the design phase, so don't be surprised if `index.html` doesn't work. ;)
