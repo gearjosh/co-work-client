@@ -49,6 +49,11 @@ This is a site design project for a fictional co-working space.  It includes pho
 ![sketch 1](src/assets/img/draft1.jpg)
 ![sketch 2](src/assets/img/draft2.jpg)
 
+#### Wireframes
+
+![landing page](src/assets/img/landing-wireframe.png)
+![all wireframes](src/assets/img/wireframes-all.png)
+
 #### Fonts Used
 
 - Raleway
