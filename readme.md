@@ -56,10 +56,8 @@ This is a site design project for a fictional co-working space.  It includes pho
 
 #### Fonts Used
 
-- Raleway
 - Montserrat
 - Abril Fatface
-- Londrina Outline
 
 ## Setup/Installation Requirements
 
